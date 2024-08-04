@@ -1,10 +1,10 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faAppStore, faGithub, faGooglePlay, faApple, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "Damilola Awofisayo",
   links: [
     {
       title: "About",
@@ -18,19 +18,23 @@ export const navigation = {
       title: "Contact",
       link: "#contact",
     },
-    {
-      title: "Links",
-      link: "/links",
-    },
-    {
-      title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
-    }
+    // {
+    //   title: "Resume",
+    //   link: "https://docs.google.com/document/d/1xqjRW5OV9jzz4q9QP8pkvcF8RmjG_p4srG5NCmjp658/edit?usp=sharing",
+    // },
+    // {
+    //   title: "Links",
+    //   link: "/links",
+    // },
+    // {
+    //   title: "Blog",
+    //   link: "https://medium.com/@hashirshoaeb",
+    // }
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  title: "Hey, I'm Damilola",
+  description: "Passionate about changing the world through technology",
   image: profile.src,
   buttons: [
     {
@@ -40,7 +44,8 @@ export const intro = {
     },
     {
       title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      //resume: require("../editable-stuff/resume.pdf")
+      link: "https://docs.google.com/document/d/1xqjRW5OV9jzz4q9QP8pkvcF8RmjG_p4srG5NCmjp658/edit?usp=sharing",
       isPrimary: false,
     },
   ],
@@ -49,9 +54,8 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "Hi! My name is Damilola Awofisayo. I'm currently a junior at Duke University, majoring in computer science with a minor in business administration at UNC-Chapel Hill. I am a full-ride merit scholarship recipient through the Robertson Scholar Leadership Program. My primary interest lies at the intersection of technology and society. I am passionate about developing and exploring tech projects in these fields, particularly their impact on various communities and institutions worldwide.",
+    "In my free time, I enjoy attending hackathons, playing sports, hanging out with friends and family, travelling and exploring new food spots.",
   ],
 }
 
@@ -60,12 +64,17 @@ export const work = {
   cards: [
     {
       title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+      description: "Specializing in iOS development but I have experience with Android Studio and cross-platform app development using React Native",
       icons: null,
     },
     {
-      title: "Web Development",
-      description: "I create responsive static websites using Reactjs.",
+      title: "Backend Development",
+      description: "Skilled in building robust backend systems with a focus on scalability and security. Proficient in server-side languages, database management, and API integration to support seamless front-to-back connectivity.",
+      icons: null,
+    },
+    {
+      title: "Public Speaking",
+      description: "From conferences to developer showcases, I've done events both in the United States and Sub-Saharan Africa including diversity in STEM, education, and emerging technologies/entrepreneurship in the US and Africa.",
       icons: null,
     }
   ],
@@ -75,40 +84,40 @@ export const projects = {
   title: "Projects",
   cards: [
     {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      title: "Vision",
+      description: "Develops reading skills for students with dyslexia through simulations supported by recent research. Swift Student Challenge Winner 2021; selected as 1 of 12 to present app to Apple CEO, Tim Cook; Featured on the app store for WWDC.",
       icons: [
         {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
+          icon: faApple,
+          link: "https://www.apple.com/newsroom/2021/06/apples-wwdc21-swift-student-challenge-winners-code-to-change-the-world/",
         },
-        {
-          icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
-        },
+        // {
+        //   icon: faGithub,
+        //   link: "https://github.com/hashirshoaeb/star_book",
+        // },
       ]
     },
     {
-      title: "QuranTalk",
-      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+      title: "ASLGo",
+      description: "An app that helps people learn American Sign Language with step-by-step modules and live feedback. I worked in a group with 3; built and integrated the CoreML model to detect live hand gestures to learn the basics of ASL with live feedback. Submitted to MIT’s hackathon; received the most participant votes out of 70+ projects.",
       icons: [
-        {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-        },
-        {
-          icon: faGooglePlay,
-          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-        },
+        // {
+        //   icon: faAppStore,
+        //   link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
+        // },
+        // {
+        //   icon: faGooglePlay,
+        //   link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+        // },
       ]
     },
     {
-      title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+      title: "Ask Sam",
+      description: "Built a full-stack website and chatbot that can discuss over 20 different political issues and recommend articles and resources to combat the increasing political apathy and division in the US.",
       icons: [
         {
-          icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
+          icon: faYoutube,
+          link: "https://youtu.be/njvOgPIJ3ns",
         },
       ]
     },
@@ -117,26 +126,31 @@ export const projects = {
 
 export const contact = {
   title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at damiawofisayo@gmail.com.",
   buttons: [
     {
       title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
+      link: "mailto:damiawofisayo@gmail.com",
       isPrimary: true,
     },
     {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
+      title: "LinkedIn",
+      link: "https://www.linkedin.com/in/damilola-awofisayo/",
       isPrimary: false,
     },
+    // {
+    //   title: "Schedule Meeting",
+    //   link: "https://topmate.io/hashirshoaeb",
+    //   isPrimary: false,
+    // },
   ]
 }
 
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-  description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+  title: "Damilola Awofisayo | Portfolio",
+  description: "CS & Business @ Duke/Kenan-Flagler | Robertson Scholar",
   image: profile.src,
 }
 
