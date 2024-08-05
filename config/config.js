@@ -1,6 +1,6 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay, faApple, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faAppStore, faGithub, faGooglePlay, faApple, faYoutube, faResearchgate } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -118,6 +118,36 @@ export const projects = {
         {
           icon: faYoutube,
           link: "https://youtu.be/njvOgPIJ3ns",
+        },
+      ]
+    },
+    {
+      title: "Plantry",
+      description: "Plantry is an app that helps amateur farmers and gardeners by tracking and organizing home gardens, giving new plant and recipe suggestions, and using machine learning to detect plant diseases and recognize plants the user wants to know about. Built using Swift and CoreML",
+      icons: [
+        {
+          icon: faYoutube,
+          link: "https://youtu.be/_gYKkumA2r0",
+        },
+      ]
+    },
+    {
+      title: "Investyx",
+      description: "Investyx is an app that aims to educate future generations on effective investment practice through use of interactive game simulations and personalized ratings for your investments. Built using Swift, Flask and the Plaid API",
+      icons: [
+        {
+          icon: faYoutube,
+          link: "https://youtu.be/QOf8FFUuXIg",
+        },
+      ]
+    },
+    {
+      title: "Dark Pattern Detection",
+      description: "Trained ML model employing computer vision and natural language processing techniques to detect dark patterns on web and mobile apps. Worked on data collection using Python to scrape dark patterns from over 1000+ websites. Paper accepted for the 45th IEEE/ACM International Conference on Software Engineering (ICSE 2023)",
+      icons: [
+        {
+          icon: faResearchgate,
+          link: "https://www.researchgate.net/publication/372375238_AidUI_Toward_Automated_Recognition_of_Dark_Patterns_in_User_Interfaces",
         },
       ]
     },
